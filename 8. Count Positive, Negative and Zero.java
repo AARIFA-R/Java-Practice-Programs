@@ -3,7 +3,6 @@ public class PositiveNegativeZero {
         int[] arr = {1,-2,0,4,-5,0};
 
         int pos=0, neg=0, zero=0;
-
         for(int num:arr){
             if(num>0)
                 pos++;
